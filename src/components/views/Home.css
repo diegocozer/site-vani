@@ -1,0 +1,429 @@
+@font-face {
+  font-family: 'Baloo Regular' ;
+  src: url(../../../public/fonts/Baloo-Regular.ttf);
+}
+@font-face {
+  font-family: 'Rostera rpg2m';
+  src: url(../../../public/fonts/Rostera-Rpg2M.otf);
+}  
+  
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.fotos-menu{
+  display: flex;
+  justify-content: center;
+  left: 20px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../../public/images/Design-sem-nome-_1_.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.quadro{
+  width: 20vw;
+  position: relative;
+  left: 8vw;
+  top: -40px;
+}
+.bem-vindo{
+  width:20vw;
+  height: 20vw;
+  background-image: url(../../../public/images/placafazenda.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.section-fotos{
+  width: 100%;
+  height: 99vh;
+  background: #FFFFF3;
+}
+.texto-secao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.sobre{
+  font-family: 'Rostera rpg2m';
+  font-size: 40px;
+  color: #666666;
+}
+
+.sobre-texto{
+font-family: 'Baloo Regular';
+font-size: 60px;
+color: #083D04;
+}
+.informacoes{
+  display: flex;
+  height: 100vh;
+  width: 99vw;
+  background: #FFFFF3;
+
+}
+#casamento,.casamento{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #FFFFF3;
+  width: 33%;
+  height: 100vh;
+  margin: 10px;
+}
+
+
+.icon-casamento{
+  height: 20%;
+}
+.icon-eventos{
+  height: 20%;
+}
+.texto-casamento{
+  color: #083D04;
+font-family: 'Baloo Regular';
+font-size: 60px;
+}
+.texto-eventos{
+  color: #083D04;
+font-family: 'Baloo Regular';
+font-size: 60px;
+}
+.info-casamento{
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-weight: 400;
+  font-size: 3vh;
+
+
+
+}
+
+.fotos-eventos-menu{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: #F6F7F8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.268);
+  position: relative;
+  top:10px;
+  height: 120vh;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 195px;
+
+
+}
+
+.fotos-eventos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  /* min-width: 25vw; */
+  height: 200px;
+  border-radius: 10px;
+  background-image: url('https://cdn0.casamentos.com.br/article-real-wedding/680/3_2/960/jpg/2305416.jpeg');
+  background-size: cover;
+}
+.noivos, .data-casamento{
+  padding-left: 10px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+.info-noivos{
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background-color: #083D04;
+  padding-bottom: 10px;
+
+}
+.fotos-eventos:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.322);
+  cursor: pointer;
+}
+.contato-info{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+  background-color: #F6F7F8;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:54px ;
+
+
+}
+
+.contato{
+  width: 33%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 30px; */
+  background-color: #F6F7F8;
+}
+.endereco{
+  width: 33%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #F6F7F8;
+
+  /* padding: 30px; */
+}
+.endereco-texto{
+  font-family: 'Roboto';
+  font-weight: 500;
+
+
+}
+
+.contato-texto{
+  margin: 0;
+  font-size:5vh;
+  color: #7F7F7F;
+  font-weight: 100;
+  font-family: 'Yesteryear', cursive;
+
+
+  
+
+}
+.fale-conosco-texto-footer{
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  font-size: 7vh;
+  margin-bottom: 30px;
+}
+.telefone,.email{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vh;
+  margin-bottom:30px ;
+}
+.btn-wpp{
+  width: 75%;
+  height: 60vh;
+  border: none;
+  border-radius: 20px;
+  background-color: #27ae60;
+  color: #F6F7F8;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.btn-wpp:hover{
+  background: #F6F7F8;
+  color: #27ae60;
+  transition:0.8s ease-in-out;
+}
+
+.desenvolvido{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: #F6F7F8;
+  color: #7F7F7F;
+  top: 10px;
+  text-align: center;
+}
+.redes-sociais{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+.facebook,.instagram{
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+}
+.facebook:hover,.instagram:hover{
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+
+}
+
+
+
+@media (max-width: 821px) {
+
+
+
+  .responsivo{
+    width: 100%;
+  }
+  .casamento{
+    width: 100%;
+    margin: 0;
+
+  }
+  .quadro{
+    top: -20px;
+  }
+  .informacoes{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .fotos-eventos-menu{
+top: 1494px;
+
+  }
+  .fotos-eventos-menu{
+    flex-direction: column;
+  }
+  .fotos-eventos{
+    width: 100%;
+    height: 30vh;
+  }
+  
+  .fotos-eventos:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.322);
+
+
+  }
+  .casamento{
+    font-size: 2vh;
+  }
+  .contato-info{
+    top: 1500px;
+    flex-direction: column;
+  }
+  .endereco,
+.contato{
+  width: 100%;
+  position: relative;
+}
+.desenvolvido{
+  top: 1498px;
+}
+.fazenda,.diego{
+  font-size: 15px;
+  padding: 10px;
+}
+
+.quadro{
+  width:100vw;
+  height: 100vh;
+  left: 1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.bem-vindo-texto{
+  top: 50px;
+  font-size: 20px;
+}
+.bem-vindo{
+  width: 40vh;
+  height: 20vh;
+}
+
+@media (max-width: 500px) {
+  .responsivo{
+    width: 100%;
+  }
+  *{margin: 0;}
+
+  .fotos-eventos-menu{
+    top:1000px;
+    z-index: 1000;
+  
+    }
+    .quadro{
+      top: -10px;
+    }
+    .contato-info{
+      top: 1055px;
+      flex-direction: column;
+    }
+   
+  .contato{
+    width: 100%;
+    position: relative;
+    top: -243px;
+
+    
+  }
+
+  .endereco{
+    position: relative;
+    top: -235px;
+  }
+  .btn-wpp{
+    width: 100%;
+    font-size: 15px;
+  }
+  .desenvolvido{
+    top: 884px;
+    flex-direction: column;
+  }
+  .fazenda,.diego{
+    font-size: 10px;
+    padding: 10px;
+  }
+  .endereco-texto{
+    font-size: 15px;
+  }.quadro{
+    width:100vw;
+    height: 100vh;
+    left: 1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .bem-vindo-texto{
+    top: 2px;
+    font-size: 8px;
+  }
+  .bem-vindo{
+    width: 30vh;
+    height: 20vh;
+  }
+  
+  
+
+  .redes-sociais{
+    align-items: center;
+  }
+
+  .casamento2{
+    position: relative;
+    top: -125px;
+  }
+  .casamento3{
+    position: relative;
+    top: -289px;
+  }
+
+}}

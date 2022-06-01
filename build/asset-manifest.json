@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.602c5c30.css",
+    "main.js": "/static/js/main.8e545e58.js",
+    "static/media/Design sem nome (1).png": "/static/media/Design sem nome (1).ced3f5d351542b0d1da9.png",
+    "static/media/placafazenda.png": "/static/media/placafazenda.9824889f33177a750c57.png",
+    "static/media/Design-sem-nome-_1_.jpeg": "/static/media/Design-sem-nome-_1_.52b8774e603ceede7463.jpeg",
+    "static/media/foto4.jpg": "/static/media/foto4.aa623a020f6227c8f450.jpg",
+    "static/media/foto6.jpg": "/static/media/foto6.e0f79a5edc6b4631d5d7.jpg",
+    "static/media/Baloo-Regular.ttf": "/static/media/Baloo-Regular.87ed376d4bf4bece1835.ttf",
+    "static/media/foto5.jpg": "/static/media/foto5.e546fe865fe45b4ad264.jpg",
+    "static/media/foto7.jpg": "/static/media/foto7.2259452e483cbe3a3347.jpg",
+    "static/media/foto1.jpg": "/static/media/foto1.8931b73a07a34497e774.jpg",
+    "static/media/Spring in May.ttf": "/static/media/Spring in May.3e8706060cd81ae1fa3c.ttf",
+    "static/media/foto2.jpg": "/static/media/foto2.3c8809b75aa1c55de3a3.jpg",
+    "static/media/foto3.jpg": "/static/media/foto3.9fb0bc329a06f45a1e50.jpg",
+    "static/media/Rostera-Rpg2M.otf": "/static/media/Rostera-Rpg2M.f4a624b2f0657f92730d.otf",
+    "static/media/Louis George Cafe Light.ttf": "/static/media/Louis George Cafe Light.bc0bd6b61a2e58888f2f.ttf",
+    "index.html": "/index.html",
+    "main.602c5c30.css.map": "/static/css/main.602c5c30.css.map",
+    "main.8e545e58.js.map": "/static/js/main.8e545e58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.602c5c30.css",
+    "static/js/main.8e545e58.js"
+  ]
+}
